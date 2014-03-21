@@ -4,7 +4,8 @@ js.uploadify
 Introduction
 ============
 
-This library packages `uplodify File Upload`_ for `fanstatic`_.
+This library packages `uplodify File Upload`_ for `fanstatic`_. Note that
+due to licensing constraints we can only provide the flash version.
 
 .. _`fanstatic`: http://fanstatic.org
 .. _`uplodify File Upload`: http://www.uploadify.com

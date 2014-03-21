@@ -197,7 +197,7 @@ if(jQuery)(
                 jQuery(this).bind("uploadifyComplete", {'action': settings.onComplete}, function(event, ID, fileObj, response, data) {
                     if (event.data.action(event, ID, fileObj, unescape(response), data) !== false) {
                         jQuery("#" + jQuery(this).attr('id') + ID + " .percentage").text(' - Completed');
-                        jQuery("#" + jQuery(this).attr('id') + ID).delay(2000).fadeOut(250, function() { jQuery(this).remove()});
+                        jQuery("#" + jQuery(this).attr('id') + ID).fadeOut(250, function() { jQuery(this).remove()});
                     }
                 });
                 if (typeof(settings.onAllComplete) == 'function') {

@@ -13,3 +13,10 @@ due to licensing constraints we can only provide the flash version.
 This requires integration between your web framework and ``fanstatic``,
 and making sure that the original resources (shipped in the ``resources``
 directory in ``js.uploadify``) are published to some URL.
+
+
+Mostly Harmless
+---------------
+
+.. image:: https://travis-ci.org/tmassman/js.uploadify.svg?branch=master
+   :target: https://travis-ci.org/tmassman/js.uploadify
